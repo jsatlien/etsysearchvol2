@@ -1,15 +1,110 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Cool Project</title>
+    <title>whiskey-Etsy</title>
+    <link href="https://fonts.googleapis.com/css?family=Rasa" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
   </head>
   <body>
-    <div class="container">
-      <p>Welcome to your life.</p>
+      <div id="searchbar">
+          <span id="logo">Etsy</span>
+            <input id="searchinput" type="text" size="35px" name="Search" placeholder="Search for items or shops">
+              <button id="searchbutton">Search</button>
+            </input>
+            <div id="useroptions">
+                <a class="userlinks" href="#">Sell on Etsy</a>
+                <a class="userlinks" href="#">Register</a>
+                <button class="userlinks" id="signin" name="button">Sign in</button>
+                <div id="cartbox">Cart
+                  <img id="cartpic" src="cart.png" alt="cart"/>
+                </div>
+          </div>
+      </div>
+      <div class="navcategories">
+        <a class="navcat" href="#">Clothing &amp; Accessories</a>
+        <a class="navcat" href="#">Jewelry</a>
+        <a class="navcat" href="#">Craft Supplies &amp; Tools</a>
+        <a class="navcat" href="#">Weddings</a>
+        <a class="navcat" href="#">Entertainment</a>
+        <a class="navcat" href="#">Home &amp; Living</a>
+        <a class="navcat" href="#">Kids &amp; Baby</a>
+        <a class="navcat" href="#">Vintage</a>
+      </div>
+    </nav>
+    <div class="maincontainer">
+      <div class="resultcolumn">
+        <header><a href="#">All categories</a> > "whiskey" (31,889 Results)</header>
+        <div class="resultbox">
+        </div>
+        <div class="related">
+          <header>Related to <b>whiskey</b></header>
+          <div class="column">
+            <ul>
+              <li><a href="#">whiskey barrel</a></li>
+              <li><a href="#">whiskey decanter</a></li>
+              <li><a href="#">scotch</a></li>
+              <li><a href="#">whiskey stones</a></li>
+            </ul>
+          </div>
+          <div class="column">
+            <ul>
+              <li><a href="#">jack daniels</a></li>
+              <li><a href="#">bourbon</a></li>
+              <li><a href="#">whiskey set</a></li>
+              <li><a href="#">whiskey decanter set</a></li>
+            </ul>
+          </div>
+          <div class="column">
+            <ul>
+              <li><a href="#">gift for men</a></li>
+              <li><a href="#">beer</a></li>
+            </ul>
+          </div>
+        </div>
+        <p>Looking for shops? <a href="#">WhiskeyDogWares</a>, <a href="#">whiskeygingerco</a>, <a href="#">whiskeynweddingbells</a>. <a href="#">See more</a>.</p>
+
+        <div class="pagescroll">
+          <span>
+            <button type="button" disabled id="arrowleft"> < </button>
+            <button type="button" id="current">1</button>
+            <button type="button" name="button">2</button>
+            <button type="button" name="button">3</button>
+            <button type="button" name="button">4</button>
+            <button type="button" name="button">5</button>
+            <button type="button" name="button">6</button>
+            <button type="button" name="button">7</button>
+            <button type="button" name="button">8</button>
+            <button type="button" disabled id="dots">...</button>
+            <button type="button" id="lastpage">250</button>
+            <button type="button" id="arrowright"> > </button>
+
+          </span>
+        </div>
+      </div>
+      <div class="sidebar">
+        <div>Show results for:</div>
+        <ul class="resultcategories">All categories
+          <li><a href="#">Home &amp; Living</a></li>
+          <li><a href="#">Art &amp; Collectibles</a></li>
+          <li><a href="#">Weddings</a></li>
+          <li><a href="#">Clothing</a></li>
+          <li><a href="#">Paper &amp; Party Supplies</a></li>
+          <li><a href="#">Accessories</a></li>
+          <li><a href="#">Jewelry</a></li>
+          <li><a href="#">Craft Supplies &amp; Tools</a></li>
+          <li><a href="#">Bags &amp; Purses</a></li>
+          <li><a href="#">Bath &amp; Beauty</a></li>
+          <li><a href="#">Shoes</a></li>
+          <li><a href="#">Books, Movies &amp; Music</a></li>
+          <li><a href="#">Electronics &amp; Accessories</a></li>
+          <li><a href="#">Toys &amp; Games</a></li>
+          <li><a href="#">Pet Supplies</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="subscribe">
+      <div id="toptrends">Get top trends and fresh editors' picks in your inbox with Etsy Finds.</div>
     </div>
     <script src="js/bundle.js"></script>
   </body>
